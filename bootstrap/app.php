@@ -21,7 +21,7 @@ $container->set('settings', function () {
     ];
 });
 
-$twig = new Slim\Views\Twig(__DIR__ . '/../views', [
+$twig = new Slim\Views\Twig(__DIR__ . '/../resources/views', [
     'cache' => $container->get('settings')['views']['cache']
 ]);
 
