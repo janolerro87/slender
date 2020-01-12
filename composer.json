@@ -2,7 +2,8 @@
     "name": "janolerro87/slender",
     "description": "A starter structure for Slim 4",
     "require": {
-        "slim/slim": "^4.0",
+        "php": ">=7.0.0",
+        "slim/slim": "4.3.0",
         "slim/psr7": "^0.5.0",
         "php-di/php-di": "^6.0",
         "slim/twig-view": "3.0.0-beta"
